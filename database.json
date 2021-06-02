@@ -5,7 +5,28 @@
       "name": "Doodles",
       "breed": "Poodle",
       "customerId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Kaiah",
+      "breed": "Huskey",
+      "customerId": 2,
       "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Rocky",
+      "breed": "Australian Shepherd",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "name": "Keiko",
+      "breed": "Huskey",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 4
     }
   ],
   "customers": [
@@ -13,9 +34,45 @@
       "id": 1,
       "name": "Hannah Hall",
       "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Clark Creswell",
+      "address": "105 Viper Lane"
+    },
+    {
+      "id": 3,
+      "name": "Nan Namafoko",
+      "address": "5 Cadmium Cir"
     }
   ],
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Emma Beaton",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Carla Ruidiaz",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Jeremy Bakker",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Nora Clement",
+      "locationId": 2
+    },
+    {
+      "name": "Thomas Tuchel",
+      "locationId": 1,
+      "id": 5
+    }
+  ],
   "locations": [
     {
       "id": 1,
@@ -26,6 +83,11 @@
       "id": 2,
       "name": "Nashville South",
       "address": "209 Emory Drive"
+    },
+    {
+      "name": "Antioch East",
+      "address": "7700 Fezman Way",
+      "id": 3
     }
   ]
 }
