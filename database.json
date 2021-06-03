@@ -27,23 +27,47 @@
       "locationId": 2,
       "customerId": 2,
       "id": 4
+    },
+    {
+      "name": "Lupin",
+      "breed": "Greyhound",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 5
+    },
+    {
+      "name": "Izzy",
+      "breed": "Great Dane",
+      "locationId": 2,
+      "customerId": 1,
+      "id": 6
+    },
+    {
+      "name": "Shoresy",
+      "breed": "German Shepherd",
+      "locationId": 3,
+      "customerId": 3,
+      "id": 7
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "hannah@nss.com"
     },
     {
       "id": 2,
       "name": "Clark Creswell",
-      "address": "105 Viper Lane"
+      "address": "105 Vienna Ave",
+      "email": "clark@nss.com"
     },
     {
       "id": 3,
       "name": "Nan Namafoko",
-      "address": "5 Cadmium Cir"
+      "address": "5 Cadmium Cir",
+      "email": "nan@nss.com"
     }
   ],
   "employees": [
@@ -71,6 +95,11 @@
       "name": "Thomas Tuchel",
       "locationId": 1,
       "id": 5
+    },
+    {
+      "name": "Reece James",
+      "locationId": 3,
+      "id": 6
     }
   ],
   "locations": [
