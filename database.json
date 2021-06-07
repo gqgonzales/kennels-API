@@ -3,16 +3,16 @@
     {
       "id": 1,
       "name": "Doodles",
-      "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 1
+      "breed": "Goldendoodle",
+      "locationId": 1,
+      "customerId": 1
     },
     {
       "id": 2,
       "name": "Kaiah",
       "breed": "Huskey",
-      "customerId": 2,
-      "locationId": 2
+      "locationId": 2,
+      "customerId": 4
     },
     {
       "id": 3,
@@ -22,11 +22,11 @@
       "locationId": 2
     },
     {
+      "id": 4,
       "name": "Keiko",
       "breed": "Huskey",
       "locationId": 2,
-      "customerId": 2,
-      "id": 4
+      "customerId": 4
     },
     {
       "name": "Lupin",
@@ -43,11 +43,18 @@
       "id": 6
     },
     {
-      "name": "Shoresy",
-      "breed": "German Shepherd",
+      "id": 7,
+      "name": "Cuzco",
+      "breed": "Chihuahua",
       "locationId": 3,
-      "customerId": 3,
-      "id": 7
+      "customerId": 3
+    },
+    {
+      "name": "Comet",
+      "breed": "Rhodesian Ridgeback",
+      "locationId": 4,
+      "customerId": 4,
+      "id": 8
     }
   ],
   "customers": [
@@ -68,6 +75,12 @@
       "name": "Nan Namafoko",
       "address": "5 Cadmium Cir",
       "email": "nan@nss.com"
+    },
+    {
+      "email": "gq.gonzales1@gmail.com",
+      "address": "1 Infinite Loop",
+      "name": "Gabriel Gonzales",
+      "id": 4
     }
   ],
   "employees": [
@@ -92,14 +105,14 @@
       "locationId": 2
     },
     {
-      "name": "Thomas Tuchel",
-      "locationId": 1,
-      "id": 5
+      "id": 7,
+      "name": "Merlyn Wood",
+      "locationId": 4
     },
     {
-      "name": "Reece James",
+      "name": "Matt Champion",
       "locationId": 3,
-      "id": 6
+      "id": 8
     }
   ],
   "locations": [
@@ -111,12 +124,17 @@
     {
       "id": 2,
       "name": "Nashville South",
-      "address": "209 Emory Drive"
+      "address": "209 Armory Drive"
     },
     {
       "name": "Antioch East",
       "address": "7700 Fezman Way",
       "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Glendale West",
+      "address": "5520 Capulet Court"
     }
   ]
 }
